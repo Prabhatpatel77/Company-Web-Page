@@ -1,0 +1,33 @@
+AIM
+
+To design and develop a Company Webpage/Employee Management Portal using HTML, CSS, JavaScript, Node.js, Express.js, and MySQL, with role-based authentication for Admin and Employee users.
+
+The system allows:
+
+Employees to register and login.
+Administrators to register and login.
+Employees to view administrator details after authentication.
+Administrators to view employee details after authentication.
+User information to be stored and retrieved from a MySQL database.
+Procedure
+Create a project folder for the Company Webpage.
+Set up the Node.js and Express.js environment.
+
+Install the required packages:
+
+npm install express mysql2 bcryptjs express-session dotenv
+Create a MySQL database named company_portal and create a users table.
+Design the Home, Registration, Login, and Dashboard pages using HTML and CSS.
+Use JavaScript to handle registration, login, and communication with the backend.
+Create the Node.js/Express.js server and connect it with the MySQL database.
+Implement user registration and password encryption using bcrypt.
+Implement login authentication and sessions.
+Apply role-based access:
+Employee → View Admin details.
+Admin → View Employee details.
+
+Run the server using:
+
+node server.js
+Open the webpage in the browser and test registration, login, and role-based dashboards.
+Verify that the required user details are correctly retrieved from the MySQL database.

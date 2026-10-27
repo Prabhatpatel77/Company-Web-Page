@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | FINTECH</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body class="dashboard-body">
+
+
+<header class="dashboard-nav">
+
+    <div class="logo">
+
+        <span>FT</span>
+
+        FINTECH
+
+    </div>
+
+
+    <div class="user-info">
+
+        <div
+            class="user-avatar"
+            id="avatar">
+            U
+        </div>
+
+        <div>
+
+            <strong id="userName">
+                User
+            </strong>
+
+            <small
+                id="userRole"
+                style="display:block;color:#94a3b8;">
+                Role
+            </small>
+
+        </div>
+
+        <button
+            id="logoutButton"
+            class="logout-button">
+
+            Logout
+
+        </button>
+
+    </div>
+
+</header>
+
+
+<main class="dashboard-container">
+
+
+    <div class="dashboard-heading">
+
+        <h1 id="welcome">
+            Welcome
+        </h1>
+
+        <p>
+            Here is your company portal overview.
+        </p>
+
+    </div>
+
+
+    <section class="profile-card">
+
+        <h3>
+            Your Account
+        </h3>
+
+
+        <div class="profile-info">
+
+            <div class="info-box">
+
+                <small>Name</small>
+
+                <strong id="profileName">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <small>Email</small>
+
+                <strong id="profileEmail">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <small>Role</small>
+
+                <strong id="profileRole">
+                    -
+                </strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="table-card">
+
+        <div class="table-header">
+
+            <h2 id="tableTitle">
+                Company Members
+            </h2>
+
+        </div>
+
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>ID</th>
+
+                        <th>Name</th>
+
+                        <th>Email</th>
+
+                        <th>Department</th>
+
+                        <th>Phone</th>
+
+                        <th>Role</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="userTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="js/dashboard.js"></script>
+
+</body>
+
+</html>
